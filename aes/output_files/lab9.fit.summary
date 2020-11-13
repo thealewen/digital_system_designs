@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Nov 06 16:56:40 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : lab9
+Top-level Entity Name : lab9
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 18,384 / 49,760 ( 37 % )
+    Total combinational functions : 17,716 / 49,760 ( 36 % )
+    Dedicated logic registers : 3,328 / 49,760 ( 7 % )
+Total registers : 3397
+Total pins : 92 / 360 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 11,264 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

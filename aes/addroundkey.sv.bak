@@ -1,0 +1,12 @@
+module AddRoundKey(
+	input logic [127:0] State,
+	input logic [1407:0] KeyExp,
+	input logic [3:0] Round,
+	output logic [127:0] data_out
+);
+always_comb
+begin
+data_out = State ^ KeyExp[127:0];
+end
+
+endmodule
