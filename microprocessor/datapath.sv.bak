@@ -1,0 +1,8 @@
+module datapath(
+	input logic LD_MAR, LD_MDR, LD_IR, LD_BEN, LD_CC, LD_REG, LD_PC, LD_LED, Clk, Reset,
+	input logic GatePC, GateMDR, GateALU, GateMARMUX, //These are for all the gates
+	input logic SR2MUX, ADDR1MUX, MARMUX;
+	input logic BEN, MIO_EN;
+	input logic [1:0] PCMUX, DRMUX, SR1MUX, ADDR2MUX, ALUK;
+	logic [15:0] MDR_In;
+	logic [15:0] MAR, MDR, IR;

@@ -1,0 +1,13 @@
+module control(input Clk, ClearA_LoadB, Run, Reset, M
+					output logic Add, fn, Shift_En, Clear_load);
+					
+enum logic [4:0] {clr, Intial, M1, S1, M2, S2, M3, S3, M4, S4, M5, S5, M6, S6, M7, S7, M8, S8, Wait} curr_state, next_state;
+
+always_ff @ (posedge Clk or posedge Reset)
+	begin
+		if (Reset)
+			curr_state <= 
+		else 
+			curr_state <= next_state;	
+	end
+					

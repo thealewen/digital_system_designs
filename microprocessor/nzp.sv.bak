@@ -1,0 +1,34 @@
+module nzpreg(
+	input Reset, Load, Clk,
+	input [15:0] buslogic,
+	output logic n, z, p
+);
+
+
+	always_ff @ (posedge Clk)
+	begin 
+		
+		if(Reset)
+			n<=0;
+			z<=0;
+			p<=0;
+		end
+		
+		else if(Load)
+			if(buslogic[15]==1) begin
+				n<=1;
+				z<=0;
+				p<=0;
+			end
+			else if(buslogic[15:0]==16'h0000) begin
+				n<=0;
+				z<=1;
+				p<=0;
+			end
+			else begin
+				n<=0;
+				z<=0;
+				p<=1;
+			end
+			
+endmodule

@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ECE 385 Quartus/Practise/multiplier/simulation/modelsim
+vadder4
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1601072766
+!i10b 1
+!s100 7WPCM:nh8Zo5T2LQHHg;?2
+ITXZED4?I=0D;_PhVZY95H1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 adder_sv_unit
+S1
+R0
+Z5 w1600993046
+Z6 8D:/ECE 385 Quartus/Practise/multiplier/adder.sv
+Z7 FD:/ECE 385 Quartus/Practise/multiplier/adder.sv
+L0 20
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1601072766.000000
+Z10 !s107 D:/ECE 385 Quartus/Practise/multiplier/adder.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385 Quartus/Practise/multiplier|D:/ECE 385 Quartus/Practise/multiplier/adder.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+D:/ECE 385 Quartus/Practise/multiplier}
+Z14 tCvgOpt 0
+vAdder9bit
+R1
+R2
+!i10b 1
+!s100 CmIES33zW6@cZ3Hn^G9QS3
+I8UdWRQjnS6No7:BFW4QUQ3
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+n@adder9bit
+vcontrol
+R1
+R2
+!i10b 1
+!s100 OMHUK;o<b3U0ML0>kfiI90
+I_iM`^N^OD1RVT6h2le06S0
+R3
+!s105 control_sv_unit
+S1
+R0
+w1601063268
+8D:/ECE 385 Quartus/Practise/multiplier/control.sv
+FD:/ECE 385 Quartus/Practise/multiplier/control.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385 Quartus/Practise/multiplier/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385 Quartus/Practise/multiplier|D:/ECE 385 Quartus/Practise/multiplier/control.sv|
+!i113 1
+R12
+R13
+R14
+vfull_adder
+R1
+R2
+!i10b 1
+!s100 iNP2ZM6XHj`a^3Q@`]:KI0
+I3J2fNo5ZILD89zRaP1^aW0
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 33
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vHexDriver
+R1
+R2
+!i10b 1
+!s100 F7dDJLKONLDlAhT4ll@HA3
+IBLzIT2jZBbnNfW0EaofML3
+R3
+!s105 HexDriver_sv_unit
+S1
+R0
+w1600802576
+8D:/ECE 385 Quartus/Practise/multiplier/HexDriver.sv
+FD:/ECE 385 Quartus/Practise/multiplier/HexDriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385 Quartus/Practise/multiplier/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385 Quartus/Practise/multiplier|D:/ECE 385 Quartus/Practise/multiplier/HexDriver.sv|
+!i113 1
+R12
+R13
+R14
+n@hex@driver
+vmultiplier
+R1
+Z15 !s110 1601072765
+!i10b 1
+!s100 DVf[JXM@ZDlOAK_Vn6jgY2
+IMONE=Zg>_llJ>PP<Q^i1c3
+R3
+!s105 multiplier_sv_unit
+S1
+R0
+w1601071431
+8D:/ECE 385 Quartus/Practise/multiplier/multiplier.sv
+FD:/ECE 385 Quartus/Practise/multiplier/multiplier.sv
+L0 3
+R8
+r1
+!s85 0
+31
+Z16 !s108 1601072765.000000
+!s107 D:/ECE 385 Quartus/Practise/multiplier/multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385 Quartus/Practise/multiplier|D:/ECE 385 Quartus/Practise/multiplier/multiplier.sv|
+!i113 1
+R12
+R13
+R14
+vreg_8
+R1
+R15
+!i10b 1
+!s100 QZ:jfhm3Ukb0Xm@QdOMAB3
+IMJiQo2``Y@B7<L9MzbQ5[3
+R3
+Z17 !s105 reg_8_sv_unit
+S1
+R0
+Z18 w1600991328
+Z19 8D:/ECE 385 Quartus/Practise/multiplier/reg_8.sv
+Z20 FD:/ECE 385 Quartus/Practise/multiplier/reg_8.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R16
+Z21 !s107 D:/ECE 385 Quartus/Practise/multiplier/reg_8.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385 Quartus/Practise/multiplier|D:/ECE 385 Quartus/Practise/multiplier/reg_8.sv|
+!i113 1
+R12
+R13
+R14
+vsync
+R1
+R2
+!i10b 1
+!s100 Q09R2]zhiN3W=8N=XJAl<2
+INg;aMWGRdCG7B>d2lK<mZ0
+R3
+!s105 sync_sv_unit
+S1
+R0
+w1600952813
+8D:/ECE 385 Quartus/Practise/multiplier/sync.sv
+FD:/ECE 385 Quartus/Practise/multiplier/sync.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385 Quartus/Practise/multiplier/sync.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385 Quartus/Practise/multiplier|D:/ECE 385 Quartus/Practise/multiplier/sync.sv|
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 DGSg:dA@ziD_Fo?jFzFlE3
+IU=eOfG:G9FQ=DiW5C`NPL0
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1601071493
+8D:/ECE 385 Quartus/Practise/multiplier/testbench.sv
+FD:/ECE 385 Quartus/Practise/multiplier/testbench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 D:/ECE 385 Quartus/Practise/multiplier/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ECE 385 Quartus/Practise/multiplier|D:/ECE 385 Quartus/Practise/multiplier/testbench.sv|
+!i113 1
+R12
+R13
+R14
+vx_ff
+R1
+R15
+!i10b 1
+!s100 `2Y@N=NaKg2DX26NLH1M>2
+IANTVAiHkI@JzEnfg4Dgd91
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 25
+R8
+r1
+!s85 0
+31
+R16
+R21
+R22
+!i113 1
+R12
+R13
+R14

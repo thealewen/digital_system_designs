@@ -1,0 +1,8 @@
+module regfile(
+	input logic ldreg, Reset, Clk,
+	input logic [2:0] drmux, sr1mux, sr2,
+	input logic [15:0] bus,
+	output logic [15:0] sr1, sr2
+);
+
+

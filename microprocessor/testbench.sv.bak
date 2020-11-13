@@ -1,0 +1,33 @@
+module testbench();
+
+timeunit 10ns;
+
+timeprecision 1ns;
+
+logic	Clk, Run, Continue;
+logic [9:0] LED;
+logic [6:0] HEX0, HEX1, HEX2, HEX3;
+
+slc3_testtop slc3_testtop0(.*);
+
+always begin : CLOCK_GENERATION
+#1 Clk = ~CLK;
+end
+
+initial begin : CLOCK_INITIALIZATION
+Clk = 0;
+end
+
+initial begin : TEST_VECTORS
+
+Reset = 1;
+#2 Reset = 0;
+#2 Reset = 1;
+#2 Continue = 1;
+#2 Run = 1;
+#2 Run = 0;
+#2 Run = 1;
+
+end
+
+endmodule
